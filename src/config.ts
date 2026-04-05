@@ -11,13 +11,45 @@ export const siteConfig = {
   },
   aboutMe:
     "Versatile engineer with a strong background in backend development, distributed systems, and data-driven applications. Experienced with Django, Spring Boot, and Docker in scalable projects across e-commerce, IoT, and computer vision. Skilled in building end-to-end ML systems, from model design to deployment on cloud platforms. Strong background in Python, TensorFlow/Keras, and scalable backend technologies. Passionate about combining research-driven methods with practical engineering.",
-  skills: [
-    "Python", "Java", "C++", "TypeScript", "JavaScript", "Dart", 
-    "Spring Boot", "Django", "Express.js", "Vue.js", "Nuxt.js", "Flutter",
-    "TensorFlow", "Keras", "PyTorch", "Scikit-learn", "LLMs", "Pandas",
-    "Docker", "Kubernetes", "Git", "CI/CD", 
-    "PostgreSQL", "MySQL", "MongoDB", "Firebase"
-  ],
+skills: [
+  // Languages
+  "Python", "Java", "JavaScript", "TypeScript", "Dart", "Bash",
+  // "C++", "C", "Haskell", 
+
+  // Backend Frameworks
+  "Spring Boot", "Spring Framework", "Spring Security", "Django",
+  // "Express.js", "REST APIs",
+
+  // Frontend Frameworks
+  "Vue.js", "Nuxt.js", "HTML", "CSS", "Flutter",
+
+  // ML & AI
+  "TensorFlow", "Keras", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "Deep Learning",
+  "Machine Learning", "LLMs", "Hugging Face", "Transformers", "Microsoft AutoGen",
+  "Prompt Engineering", "Image Processing",
+  // , "LLMOps", "Recommender Systems","OpenCV",
+
+  // DevOps & Tools
+  "Docker", "Kubernetes", "Git", "CI/CD", "Maven", "JUnit", "Figma", "JMeter", "Arize Phoenix", "Linux",
+
+  // Databases
+  "PostgreSQL", "MySQL", "MongoDB", "Firebase", "SQLite",
+
+  // Cloud & Deployment
+  "Azure", "Vercel", "JWT",
+
+  // CS Fundamentals
+  // "Data Structures", "Algorithm Design", "OOP", "Software Design", "Distributed Systems",
+  // "Computer Architecture", "Software Systems Engineering", "DBMS",
+  "UML",
+
+  // Networking & Security
+  // "Networking", "Cisco Network Devices", "Cybersecurity", "TLS", "Digital Forensics",
+
+  // Other
+  "Web Scraping", "XML",
+  // "Operations Research", "MIP", "SEO", 
+],
   projects: [
     {
       name: "Treatment Center Assessment Tool (WHO)",
@@ -62,48 +94,64 @@ export const siteConfig = {
       skills: ["Python", "Operations Research", "MIP"],
     }
   ],
+
   experience: [
-    {
-      company: "PoliSpace (Space association of Politecnico di Milano)",
-      title: "Software Engineer",
-      dateRange: "Apr 2024 - Apr 2025",
-      bullets: [
-        "Developed a YOLO-based object detection system to identify obstacles for rover navigation.",
-        "Implemented ArUco marker pose estimation for enhanced localisation and orientation",
-      ],
-    },
-    {
-      company: "Iran Jack Company",
-      title: "Web Developer Intern",
-      dateRange: "Jun 2021 - Sep 2021",
-      bullets: [
-        "Designed and developed a full-featured eCommerce website using Spring Boot for the backend",
-        "Built an admin interface with Bootstrap, leading to a measurable increase in sales",
-      ],
-    },
-  ],
-  education: [
-    {
-      school: "University of Twente",
-      degree: "M.Sc. Computer Science Thesis Period",
-      dateRange: "2026 - Present",
-      achievements: [],
-    },
-    {
-      school: "Politecnico di Milano",
-      degree: "M.Sc. Computer Science and Engineering",
-      dateRange: "2023 - Present",
-      achievements: [
-        "MAECI Scholarship, Italian Ministry of Foreign Affairs",
-      ],
-    },
-    {
-      school: "Islamic Azad University, West Tehran Branch",
-      degree: "B.Sc., Computer Engineering",
-      dateRange: "2018 - 2022",
-      achievements: [
-        "GPA: 19.20/20",
-      ],
-    },
-  ],
+  {
+    company: "PoliSpace (Space association of Politecnico di Milano)",
+    title: "Software Engineer",
+    dateRange: "Apr 2024 - Apr 2025",
+    bullets: [
+      "Developed a YOLO-based object detection system for real-time obstacle identification in autonomous rover navigation.",
+      "Implemented ArUco marker pose estimation to enhance localisation accuracy and orientation tracking in unstructured environments.",
+    ],
+  },
+  {
+    company: "Iran Jack Company",
+    title: "Web Developer Intern",
+    dateRange: "Jun 2021 - Sep 2021",
+    bullets: [
+      "Built a full-stack e-commerce platform with Spring Boot and RESTful APIs, increasing conversion rates by 15%.",
+      "Developed an admin dashboard with HTML, CSS, and Bootstrap that reduced product management time by 30%.",
+      "Containerized the application with Docker, cutting new developer onboarding time from days to hours.",
+    ],
+  },
+  {
+    company: "Islamic Azad University, West Tehran Branch",
+    title: "Computer Networks Teaching Assistant",
+    dateRange: "Jun 2021 - Sep 2021",
+    bullets: [
+      "Taught weekly CCNA-aligned lab sessions on networking fundamentals and Cisco device configuration to computer engineering undergraduates.",
+      "Redesigned lab exercises, improving student practical assessment scores by 20% over previous course materials.",
+      "Ran weekly Q&A sessions on network troubleshooting, contributing to a 30% improvement in overall student grades.",
+    ],
+  },
+],
+education: [
+  {
+    school: "University of Twente",
+    degree: "M.Sc. Computer Science — Thesis Period",
+    dateRange: "Feb 2026 - Present",
+    achievements: [
+      "Research focus: Computer Vision & Video Understanding",
+      "Selected for a 1-year research exchange from Politecnico di Milano",
+    ],
+  },
+  {
+    school: "Politecnico di Milano",
+    degree: "M.Sc. Computer Science and Engineering",
+    dateRange: "2023 - Present",
+    achievements: [
+      "MAECI Scholarship, Italian Ministry of Foreign Affairs (2023–2025)",
+      "Current GPA: 8.5/10",
+    ],
+  },
+  {
+    school: "Islamic Azad University, West Tehran Branch",
+    degree: "B.Sc., Computer Engineering",
+    dateRange: "2018 - 2022",
+    achievements: [
+      "GPA: 9.60/10 — Graduated Top of Class",
+    ],
+  },
+],
 };
